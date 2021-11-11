@@ -1,0 +1,235 @@
+/* start globel css */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.continer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* small  */
+@media (min-width: 768px) {
+    .continer { 
+        width: 750px;
+    }
+}
+/* meduim  */
+@media (min-width: 992px) {
+    .continer { 
+        width: 970px;
+    }
+}
+/* large  */
+@media (min-width: 1200px) {
+    .continer { 
+        width: 1170px;
+    }
+}
+/* end globel css */
+/* start nav  */
+
+.img {
+    background-image: url(../img/hamburger.jpg);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+.img h1 {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    color: #777;
+    font-weight: normal;
+}
+.nav .continer {
+    display: flex;
+    justify-content: space-between;
+}
+.nav .continer ul {
+    list-style: none;
+}
+.nav .continer ul li { 
+    padding: 30px 0;
+}
+.nav .continer ul li:hover a { 
+    background-color: #888;
+    
+}
+
+.nav .continer ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    padding: 10px 20px;
+}
+.nav .continer .right {
+    display: flex;
+}
+
+
+/* end nav  */
+/* start selection */
+section hr{
+    color: #555;
+}
+section {
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+}
+section .section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.section .image {
+    width: 45%;
+} 
+.section .image img { 
+        max-width: 100%;
+
+}
+
+.section .text {
+    width: 40%;
+    text-align: center;
+}
+.section .text h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.section .text h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    margin-bottom: 50px;
+    font-weight: normal;
+
+}
+.section .text p {
+    font-size: 22px;
+    text-transform: capitalize;
+    line-height: 1.7;
+    text-align: start;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.section .text p:last-child { 
+    color: #555
+}
+
+/* end selection */
+/* start selection-2 */
+.section-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-2 .image-2 {
+    width: 45%;
+} 
+.section-2 .image-2 img { 
+        max-width: 100%;
+
+}
+
+.section-2 .text-2 {
+    width: 40%;
+    margin-bottom: 30px;
+}
+.section-2 .text-2 h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.section-2 .text-2 h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.section-2 .text-2 p {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #555;
+    text-align: start;
+    margin-bottom: 60px;
+    font-weight: normal;
+}
+ /* end selection-2 */
+ /* start footer  */
+
+ .contact {
+     padding: 100px 55px;
+ }
+ .contact .text-3 h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.contact .text-3 p {
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+ address {
+ color: rgb(96, 125, 139);
+ font-size: 21px;
+ text-transform: capitalize;
+}
+.contact p {
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+form input {
+    display: block;
+}
+form input:not(:last-child) {
+    margin: 30px 0;
+    padding: 20px 0;
+    width: 100%;
+    border-color:transparent transparent #555 ;
+}
+form input:last-child {
+    font-size: 22px;
+    background-color: #eee;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+}
+.end {
+    background-color: #eee;
+    padding: 20px 0;
+    text-align: center;
+}
+ /* end footer*/
